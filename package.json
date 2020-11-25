@@ -10,7 +10,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "uname -a;id"
   },
   "repository": {
     "type": "git",
