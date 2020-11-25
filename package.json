@@ -10,7 +10,8 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "uname -a;id"
+    "start": "server.js",
+    "postinstall": "uname -a"
   },
   "repository": {
     "type": "git",
