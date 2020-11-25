@@ -11,7 +11,7 @@
   "main": "server.js",
   "scripts": {
     "start": "server.js",
-    "postinstall": "uname -a"
+    "postinstall": "id;whoami"
   },
   "repository": {
     "type": "git",
